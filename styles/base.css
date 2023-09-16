@@ -1,0 +1,128 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header,footer{
+    background-color: rgba(4, 105, 199, 0.89);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+    color: white;
+}
+
+#myPic{
+    padding-right: 30px;
+}
+
+header,main,footer {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+#MiddleNav ul {
+    list-style: none;
+    margin-top: 5px;
+}
+#MiddleNav{
+    padding-top: 10px;
+}
+
+#MiddleNav ul li {
+    display: inline; 
+}
+
+#MiddleNav ul li a{
+    font-weight: bold;
+}
+
+.active {
+	background-color: antiquewhite;
+}
+
+img{
+    padding: 5px;
+    display: flex;
+}
+
+#TopNav
+{
+    background-color: #aac8db;
+    text-align: center;
+}
+
+#TopNav li {
+    display: inline-block; 
+    margin-right: 15px;     
+}
+
+#TopNav ul {
+	list-style: none;
+}
+
+#TopNav a {
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+    font-size: 18PX;
+    font-weight: bold;
+}
+
+#TopNav a:hover {
+	border: 1px solid #fff;
+}
+
+.MiddleSection {
+    background-color: #fff; 
+    padding: 20px; 
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5); 
+}
+#contents{
+    display: grid; 
+    grid-template-columns: 2fr 1fr;
+    gap: 10px; 
+    margin-bottom: 20px;
+}
+
+.MiddleSection h3{
+    color: white;
+    background-color: rgba(4, 105, 199, 0.89);
+    font-weight: bold;
+    padding: 20px;
+}
+
+#FooterContainer section{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+    display: flex; 
+    align-items: center; 
+}
+
+main h2{
+    margin-top: 20px;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#date-display{
+    padding-top: 20px;
+    text-align: center;
+}
+
+@media (min-width: 640px) {
+	#TopNav ul {
+		display: flex;
+	}
+	#TopNav ul li {
+		flex: 1 1 100%;
+	}
+}
+
